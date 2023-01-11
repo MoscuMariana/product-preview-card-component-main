@@ -1,0 +1,103 @@
+/** @format */
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  box-sizing: border-box;
+  font-family: "Montserrat", "Fraunces", "Outfit", sans-serif;
+}
+
+.container {
+  background-color: hsl(30, 38%, 92%);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .card {
+  background-color: hsl(0, 0%, 100%);
+  width: 500px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card .product-img {
+  background-image: url(images/image-product-desktop.jpg);
+  background-size: cover;
+  border-radius: 5px 0 0 5px;
+}
+
+.card .category {
+  font-family: "Montserrat";
+  letter-spacing: 1px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: gray;
+  padding: 10px;
+}
+.card .product-title {
+  font-family: "Fraunces";
+  padding: 10px;
+  margin-top: -10px;
+  font-size: 27px;
+  font-weight: bold;
+  color: rgb(38, 38, 38);
+  line-height: 30px;
+}
+.card .product-description {
+  padding: 10px;
+}
+
+.description {
+  color: hsl(228, 12%, 48%);
+  padding: 10px;
+  margin-top: -20px;
+  font-family: "Montserrat";
+  letter-spacing: 1px;
+  font-size: 12px;
+  color: gray;
+}
+.prices {
+  display: flex;
+  align-items: center;
+}
+.prices .new-price {
+  font-size: 27px;
+  font-weight: bold;
+  color: hsl(158, 36%, 37%);
+  padding: 20px;
+}
+
+.prices .old-price {
+  font-size: 14px;
+  color: grey;
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 5px;
+  border-color: hsl(158, 36%, 37%);
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+button p {
+  color: white;
+  padding-left: 10px;
+  font-family: "Montserrat";
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(158, 36%, 37%);
+}
